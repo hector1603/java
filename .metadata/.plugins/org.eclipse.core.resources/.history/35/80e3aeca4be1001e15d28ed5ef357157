@@ -1,0 +1,16 @@
+package com.krakedev;
+
+public class TestResultado {
+
+	public static void main(String[] args) {
+		Rectangulo rec1 = new Rectangulo();
+		Rectangulo rec2 = new Rectangulo();
+		
+		rec1.base = 10;
+		rec1.altura = 5;
+		
+		
+
+	}
+
+}
