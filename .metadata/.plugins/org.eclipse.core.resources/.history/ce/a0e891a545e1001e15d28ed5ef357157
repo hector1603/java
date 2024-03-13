@@ -26,13 +26,6 @@ public class Calculadora {
 		return result;
 	}
 	
-	public double promediar(double valor1, double valor2, double valor3) {
-		double suma;
-		double promedio;
-		suma = valor1 + valor2 + valor3;
-		promedio = suma / 3;
-		return promedio;
-	}
 	
-	
+
 }
