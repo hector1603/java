@@ -20,12 +20,5 @@ public class Calculadora {
 		return result;
 	}
 	
-	public double dividir(double dividendo, double divisor) {
-		double result;
-		result = dividendo / divisor;
-		return result;
-	}
-	
-	
 
 }
