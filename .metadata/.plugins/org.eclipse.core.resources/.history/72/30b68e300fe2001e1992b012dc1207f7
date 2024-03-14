@@ -8,10 +8,16 @@ public class TestProducto {
 		
 		productoA.setDescripcion("La aspirina es un analgésico, antiinflamatorio no esteroideo (AINE) y antipirético. También tiene propiedades antiplaquetarias.");
 		
+		productoB.setNombre("Paracetamol");
 		productoB.setDescripcion("El paracetamol es un analgésico y antipirético comúnmente utilizado para aliviar el dolor y reducir la fiebre. No es antiinflamatorio.");
+		productoB.setPrecio(2.8);
+		productoB.setStockActual(12);
 		
+		productoC.setNombre("Omeprazol");
 		productoC.setDescripcion("El omeprazol es un inhibidor de la bomba de protones (IBP) que reduce la producción de ácido en el estómago.");
-
+		productoC.setPrecio(5);
+		productoC.setStockActual(20);
+		
 		System.out.println("----- Primer producto -----");
 		System.out.println("Nombre: " + productoA.getNombre());
 		System.out.println("Descripcion: " + productoA.getDescripcion());
