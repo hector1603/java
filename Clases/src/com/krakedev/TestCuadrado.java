@@ -7,9 +7,9 @@ public class TestCuadrado {
 		Cuadrado cuadradoMediano = new Cuadrado();
 		Cuadrado cuadradoGrande = new Cuadrado();
 		
-		cuadradoPequenio.lado = 3;
-		cuadradoMediano.lado = 5;
-		cuadradoGrande.lado = 8;
+		cuadradoPequenio.setLado(3);
+		cuadradoMediano.setLado(5);
+		cuadradoGrande.setLado(8);
 		
 		double areaP = cuadradoPequenio.calcularArea();
 		double perimetroP = cuadradoPequenio.calcularPerimetro();
@@ -30,5 +30,4 @@ public class TestCuadrado {
 		System.out.println(" Perimetro: " + perimetroG);
 
 	}
-
 }

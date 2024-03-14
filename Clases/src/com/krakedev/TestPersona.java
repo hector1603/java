@@ -7,26 +7,24 @@ public class TestPersona {
 		Persona persona1 = new Persona();
 		Persona persona2 = new Persona();
 		
-		System.out.println("Nombre: " + persona1.nombre);
-		System.out.println("Edad: " + persona1.edad);
-		System.out.println("Estatura: " + persona1.estatura);
+		System.out.println("Nombre: " + persona1.getNombre());
+		System.out.println("Edad: " + persona1.getEdad());
+		System.out.println("Estatura: " + persona1.getEstatura());
 		
 		System.out.println("------------------");
 		
-		persona1.nombre = "Hector";
-		persona1.edad = 29;
-		persona1.estatura = 1.70;
+		persona1.setNombre("Hector");
+		persona1.setEdad(29);
+		persona1.setEstatura(1.70);
 		
-		System.out.println("Nombre: " + persona1.nombre);
-		System.out.println("Edad: " + persona1.edad);
-		System.out.println("Estatura: " + persona1.estatura);
+		System.out.println("Nombre: " + persona1.getNombre());
+		System.out.println("Edad: " + persona1.getEdad());
+		System.out.println("Estatura: " + persona1.getEstatura());
 		
-		persona2.nombre = "Lucero";
+		persona2.setNombre("Lucero");
 		
 		System.out.println("------------------");
-		System.out.println("Persona 1: " + persona1.nombre);
-		System.out.println("Persona 2: " + persona2.nombre);
-		
+		System.out.println("Persona 1: " + persona1.getNombre());
+		System.out.println("Persona 2: " + persona2.getNombre());
 	}
-
 }
