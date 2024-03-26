@@ -71,16 +71,5 @@ public class Curso {
 			Estudiante estudianteX = estudiantes.get(i);
 			estudianteX.mostrar();
 		}
-		
-		/*
-		if (estudiantes != null) {
-			
-			for (Estudiante estudiante : estudiantes) {
-				System.out.println("Nombre: " + estudiante.getNombre() + " " + estudiante.getApellido() + "\nCedula: " + estudiante.getCedula());
-				
-			System.out.println("Materia: " + estudiante.getNotas());					
-				
-			}
-		}*/
 	}
 }

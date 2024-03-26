@@ -44,21 +44,21 @@ public class Estudiante {
 	}
 
 	
-	public void agregarNota(Nota notaNueva) { 
-		Nota elementoNota;
-		for(int i = 0; i < notas.size(); i ++) {
-			elementoNota = notas.get(i);
-			if(notaNueva.getMateria().getCodigo() != elementoNota.getMateria().getCodigo()) {
-				if(notaNueva.getCalificacion() >= 0 && notaNueva.getCalificacion() <= 10){
-					 notas.add(notaNueva);
-					 System.out.println("Nueva nota agregada.");
-				}
-			} else {
-				System.out.println("Error");
-			}
-		}
-		
+	public void agregarNota(Nota notaNueva) {
+	    boolean materiaExistente = false;
+	    for (Nota nota : notas) {
+	        if (notaNueva.getMateria().getCodigo().equals(nota.getMateria().getCodigo())) {
+	            materiaExistente = true;
+	            break;
+	        }
+	    }
+	    if (!materiaExistente) {
+	        notas.add(notaNueva);
+	    } else {
+	        System.out.println("Ya existe una nota para esta materia.");
+	    }
 	}
+
 	
 	public void modificarNota(String codigo, double notaNueva) {
 		Nota elementoNota;
