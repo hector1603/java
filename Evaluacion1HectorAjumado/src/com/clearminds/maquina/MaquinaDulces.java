@@ -136,7 +136,6 @@ public class MaquinaDulces {
 			elementoCelda = celdas.get(i);
 			if(elementoCelda.getProducto().getPrecio() <= limite) {
 				menores.add(elementoCelda.getProducto());
-				System.out.println("Nombre: " + elementoCelda.getProducto().getNombre() + " Precio: " + elementoCelda.getProducto().getPrecio());
 			}
 		}
 		return menores;

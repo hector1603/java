@@ -24,7 +24,12 @@ public class TestBuscarMenores {
 		maquina.agregarCelda(new Celda(p5, 41, "L"));
 		maquina.agregarCelda(new Celda(p6, 8, "M"));
 		
-		ArrayList<Producto> precioMenor = maquina.buscarMenores(2);
+		ArrayList<Producto> precioMenor = maquina.buscarMenores(1.0);
 		System.out.println("Productos menores: " + precioMenor.size());
+		
+		for(int i = 0; i < precioMenor.size(); i++) {
+			Producto producto = precioMenor.get(i);
+			System.out.println("Nombre: "+ producto.getNombre() + " Precio: "+producto.getPrecio());
+		}
 	}
 }
