@@ -101,4 +101,5 @@ public class Persona {
 				+ fechaNacimiento + ", horaNacimiento=" + horaNacimiento + ", estatura=" + estatura + ", numeroHijos="
 				+ numeroHijos + ", cantidadAhorrada=" + cantidadAhorrada + ", estadoCivil=" + estadoCivil + "]";
 	}
+	
 }
