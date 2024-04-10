@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="clearminds.cuentas.Cuenta"/>
     <fullyQualifiedTypeName name="com.krakedev.demo.Producto"/>
     <fullyQualifiedTypeName name="com.krakedev.controlflujo.Validador"/>
+    <fullyQualifiedTypeName name="com.cmc.directorio.entidades.AdminTelefono"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.utils.DiasSemana"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.utils.Util"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
 </qualifiedTypeNameHistroy>
